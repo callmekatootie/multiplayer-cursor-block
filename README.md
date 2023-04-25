@@ -1,42 +1,20 @@
-# GitHub Blocks Template
+# Multiplayer Cursor Block
 
-Use this repository as a starter template for building your own Blocks.
-## Quickstart
+A PoC [Github Block](https://blocks.githubnext.com/) to demonstrate how users can collaborate on a repository by sharing their mouse cursors with other users viewing the same file.
 
-> 🛑 Currently, you must be flagged into the [GitHub Blocks Technical Preview](https://blocks.githubnext.com) in order to develop blocks. There is no "offline" development mode at this time.
+**NOTE**
 
-Fork this repo using the [`Use this template`](https://github.com/githubnext/blocks-template/generate) button above:
+This block uses the [Starter plan of liveblocks](https://liveblocks.io/pricing) which restricts the number of users using it to 100MAUs. It is advised that you clone it and replace the public api key under `blocks/liveblocks.config.ts` file with your liveblocks key
 
-!["Use this template" button](https://user-images.githubusercontent.com/8978670/144893319-5d45ab5c-12c0-42b4-99f8-97f658deb03b.png)
+## Demo
 
-Then, clone _your_ repo (not [this one!](https://github.com/githubnext/blocks-template)) and get ready for action:
+<!-- Add demo file -->
 
-```bash
-yarn # install dependencies
-yarn start # start the dev server
-# Or use npm, pnpm, you know the drill
-```
+## References
 
-When you visit [localhost:4000](https://localhost:4000) in your browser, you'll be
-redirected to the Blocks app, but your locally-developed blocks will appear in the block picker:
+- Liveblocks: Getting started with React ([View](https://liveblocks.io/docs/get-started/react))
+- Liveblocks: Live cursors ([View](https://liveblocks.io/examples/live-cursors-advanced/nextjs))
 
-<img alt="Block picker" src="https://user-images.githubusercontent.com/56439/181648955-101b6567-3f9b-44b3-af99-7ef3ca6161b9.png" width="418" />
-
-(if you're using Safari (or another browser that doesn't permit calling `http` URLs from an `https` page), run `yarn start-https` and visit [https://localhost:4000](https://localhost:4000) instead.)
-
-This template includes one example File Block and one Folder Block. The dev server supports hot reloading, so make some changes, and see what they do!
-
-## Under the hood
-
-Currently, Blocks are [React](https://reactjs.org/) components. They have a well-defined contract with their surroundings, and receive a [fixed set of props](https://github.com/githubnext/blocks/blob/main/docs/Developing%20blocks/4%20API%20reference%20and%20types.md) when they are instantiated. They are developed in [TypeScript](https://www.typescriptlang.org/), and bundled with [Vite](https://vitejs.dev/).
-
-## More Info
-
-Visit [githubnext/blocks](https://blocks.githubnext.com/githubnext/blocks) for a full tutorial, documentation, and examples.
-
-You should also join us in our discord! There's a [#blocks channel](https://discord.com/channels/735557230698692749/1039950186136469535) where you can connect with us and other folks who are building Blocks:
-
-> 👋 https://discord.gg/githubnext
 ## License
 
 MIT
